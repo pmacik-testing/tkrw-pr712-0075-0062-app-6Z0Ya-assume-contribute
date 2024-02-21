@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-klor
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0062-tenant/tkrw-pr712-0075-0062-app/devfile-sample-klor@sha256:c6fb44ba1c9358b8b0ce478defc29dde3f5bec79a4f764c187d2a65e8b9504f8
         name: my-nodejs
         ports:
         - containerPort: 3001
